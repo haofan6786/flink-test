@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="545ee732-a02e-4961-b6c5-6f810b15786c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-test/src/main/java/com/harry/flink/transform/TransformTest4_MultipleStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-test/src/main/java/com/harry/flink/transform/TransformTest4_MultipleStream.java" afterDir="false" />
+    <list default="true" id="545ee732-a02e-4961-b6c5-6f810b15786c" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/flink-test/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,16 @@
       <option name="presentableId" value="Default" />
       <updated>1631629174520</updated>
       <workItem from="1631629177062" duration="619000" />
+      <workItem from="1631629811442" duration="334000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1631630015152</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631630015152</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,5 +90,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
