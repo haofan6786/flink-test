@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="545ee732-a02e-4961-b6c5-6f810b15786c" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/flink-test/src/main/java/com/harry/flink/sink/SinkTest4_JDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-test/src/main/java/com/harry/flink/window/WindowTest1_TimeWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-test/src/main/java/com/harry/flink/window/WindowTest2_CountWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-test/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/flink-test/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-test/flink-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-test/flink-test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-test/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,7 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.SinkTest4_JDBC">
+  <component name="RunManager" selected="Application.WindowTest2_CountWindow">
     <configuration name="SinkTest1_Kafka" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.harry.flink.sink.SinkTest1_Kafka" />
       <module name="flink-test" />
@@ -99,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransformTesst5_RichFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.harry.flink.transform.TransformTesst5_RichFunction" />
+    <configuration name="WindowTest1_TimeWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.harry.flink.window.WindowTest1_TimeWindow" />
       <module name="flink-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.harry.flink.transform.*" />
+          <option name="PATTERN" value="com.harry.flink.window.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransformTest6_Partition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.harry.flink.transform.TransformTest6_Partition" />
+    <configuration name="WindowTest2_CountWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.harry.flink.window.WindowTest2_CountWindow" />
       <module name="flink-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.harry.flink.transform.*" />
+          <option name="PATTERN" value="com.harry.flink.window.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WindowTest2_CountWindow" />
+        <item itemvalue="Application.WindowTest1_TimeWindow" />
         <item itemvalue="Application.SinkTest4_JDBC" />
         <item itemvalue="Application.SinkTest2_Redis" />
         <item itemvalue="Application.SinkTest1_Kafka" />
-        <item itemvalue="Application.TransformTest6_Partition" />
-        <item itemvalue="Application.TransformTesst5_RichFunction" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +157,7 @@
       <workItem from="1631629177062" duration="619000" />
       <workItem from="1631629811442" duration="334000" />
       <workItem from="1631672721496" duration="5193000" />
-      <workItem from="1631691976008" duration="6635000" />
+      <workItem from="1631691976008" duration="16342000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1631630015152</created>
@@ -182,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631695550523</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1631710425342</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1631710425342</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
