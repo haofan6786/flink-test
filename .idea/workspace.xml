@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="545ee732-a02e-4961-b6c5-6f810b15786c" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/flink-test/src/main/java/com/harry/flink/sink/SinkTest4_JDBC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-test/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/flink-test/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-test/flink-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-test/flink-test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-test/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,22 +15,8 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="usePluginRegistry" value="true" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -53,54 +35,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.SinkTest4_JDBC">
-    <configuration name="SinkTest1_Kafka" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.harry.flink.sink.SinkTest1_Kafka" />
-      <module name="flink-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.harry.flink.sink.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SinkTest2_Redis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.harry.flink.sink.SinkTest2_Redis" />
-      <module name="flink-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.harry.flink.sink.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SinkTest4_JDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.harry.flink.sink.SinkTest4_JDBC" />
-      <module name="flink-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.harry.flink.sink.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TransformTesst5_RichFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.harry.flink.transform.TransformTesst5_RichFunction" />
+  <component name="RunManager">
+    <configuration name="TransformTest4_MultipleStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.harry.flink.transform.TransformTest4_MultipleStream" />
       <module name="flink-test" />
       <extension name="coverage">
         <pattern>
@@ -108,43 +47,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TransformTest6_Partition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.harry.flink.transform.TransformTest6_Partition" />
-      <module name="flink-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.harry.flink.transform.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SinkTest4_JDBC" />
-        <item itemvalue="Application.SinkTest2_Redis" />
-        <item itemvalue="Application.SinkTest1_Kafka" />
-        <item itemvalue="Application.TransformTest6_Partition" />
-        <item itemvalue="Application.TransformTesst5_RichFunction" />
+        <item itemvalue="Application.TransformTest4_MultipleStream" />
       </list>
     </recent_temporary>
   </component>
@@ -157,9 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1631629174520</updated>
       <workItem from="1631629177062" duration="619000" />
-      <workItem from="1631629811442" duration="334000" />
-      <workItem from="1631672721496" duration="5193000" />
-      <workItem from="1631691976008" duration="6635000" />
+      <workItem from="1631629811442" duration="2776000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1631630015152</created>
@@ -169,20 +76,13 @@
       <updated>1631630015152</updated>
     </task>
     <task id="LOCAL-00002" summary="update">
-      <created>1631672899250</created>
+      <created>1631630198912</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1631672899250</updated>
+      <updated>1631630198912</updated>
     </task>
-    <task id="LOCAL-00003" summary="update">
-      <created>1631695550523</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1631695550523</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
