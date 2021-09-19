@@ -22,7 +22,6 @@ public class ProcessTest3_SideOutputCase {
         //定义OutputTag
         OutputTag<SensorReading> outputTag = new OutputTag<SensorReading>("lowTemp") {
         };
-
         //自定义侧输出流实现分流操作
         SingleOutputStreamOperator<SensorReading> highTempStream = dataStream
                 .process(new ProcessFunction<SensorReading, SensorReading>() {
