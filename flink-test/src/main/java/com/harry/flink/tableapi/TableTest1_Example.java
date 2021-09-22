@@ -8,7 +8,7 @@ import org.apache.flink.table.api.Table;
 import org.apache.flink.table.api.java.StreamTableEnvironment;
 import org.apache.flink.types.Row;
 
-public class Example {
+public class TableTest1_Example {
     public static void main(String[] args) throws Exception {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         env.setParallelism(1);
@@ -29,7 +29,8 @@ public class Example {
         Table dataTable = tableEnv.fromDataStream(dataStream);
 
         //调用table API进行转换操作
-        Table resultTable = dataTable.select("id,temperature").where("id='sensor_1'");
+        Table resultTable = dataTable.select("id,temperature")
+                .where("id='sensor_1'");
 
         //执行SQL
         tableEnv.createTemporaryView("sensor",dataTable);
